@@ -142,7 +142,8 @@ var name: String
 // annotations help make variable types more explicit 
 // without annotations, you will be using type inference
 
-**Day 2**
+**Day 2** 
+Collections
 
 
 2.1 arrays 
@@ -308,17 +309,120 @@ let results = [
 let scienceResults = results["science", default: 0] 
  
  
- // be careful not to confuse a dictionary with an array. Dictionary will have keys 
+// be careful not to confuse a dictionary with an array. Dictionary will have keys 
  
 
 
+2.7 Creating empty collections 
+
+var teams = [String: String]()
+
+teams["Paul"] = "Red" 
+
+// This is an empty dictionary with strings for key and value 
 
 
+var results = [Int]() 
+
+results[2] = 3
+
+// This is an empty array to store integers
+
+var words = Set<String>() 
+var numbers = Set<Int>()
+	
+	
+// empty sets are made with angle brackets instead
+// times when you do not know all your data up front, empty collections are great on that
 
 
+	
+2.8 enumerations
+	
+	
+// enums helps to stop user from accidentally using different strings each time 
+	
+enum Result {
+	case succuess
+	case failure
+}
+
+let result4 = Result.failure
+	
+
+enum Directions {
+
+	case north
+	case west
+	case east 
+	case south
+	
+}
+
+let direction2 = Direction.north
+	
+// enums are great to store certain values with a definite fixed number of values
+// days of the week, months, suite of cards, genres, types of things 
+	
+	
+2.9 Enum associated values 
+	
+enum Building { case skyscraper(floors: Int) }
+	
+// THis creates a case called skyscraper, the associated value is floors with an integer type 
+
+enum Sport { case running(distance: Int) }
+
+// this creates a case called running, with distance being its associated value
+	
+enum Activity { case reading(bookTitle: String) }
+	
+enum CharacterClass { case paladin(level: Int) }
+
+enum Activity {
+    case bored
+    case running
+    case talking
+    case singing
+}
+	
+enum Activity {
+    case bored
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
 
 
+let talking = Activity.talking(topic: "football")
 
+	
+2.10 Enum raw values 
+
+enum Planet: Int {
+    case mercury
+    case venus
+    case earth
+    case mars
+}
+
+let earth = Planet(rawValue: 2)
+
+	
+enum Planet: Int {
+    case mercury = 1
+    case venus
+    case earth
+    case mars
+}
+	
+// enum case values follow zero count order
+// you can assign a value to the first case, and it will add up on its own 
+	
+	
+	
+
+	
 **Day 6** 
 *Create basic closure* 
 
