@@ -499,7 +499,9 @@ case 9..<18:
 default:
 	print("You're an adult")
 }	
-	
+
+let phone = "iPhone"
+print(phone == "Android" ? "Failure" : "Success")	     
 	
 	
 **Day 6** 
