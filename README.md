@@ -707,20 +707,45 @@ repeat {
 } while passengerCount < 10
 
 
+**Final quiz **
+
+for loop
+	for name in ["Taylor"] {
+	print("Welcome, \(name)!")
+	}	     
+	     
+	
+Repeat Loop  
+	var hour = 9
+	repeat {
+		print("We're open for business.")
+		hour += 1
+	} while hour < 17
+	print("Time to go home!")	     
 	     
 	     
+Break exit loop	     
+	outer: for i in 1...10 {
+		for j in 1...10 {
+			let product = i * j
+			print("Product is \(product)")
+			break outer
+		}
+	}	     
+	     
+for loop	     
+	 for _ in 1..<3 {
+		print("Happy birthday to you")
+	}
+	print("Happy birthday dear Taylor")
+	print("Happy birthday to you")    
 	     
 	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
+Skipping 
+
+	for i in 1...10 {
+		continue
+	}	     
 	     
 	     
 	     
