@@ -1184,3 +1184,20 @@ func buyClothes(item: String, using payment: () -> Void) {
 	payment()
 }
 buyClothes(item: "jacket", using: payCash)
+
+
+Trailing syntax
+
+func travel(action: () -> Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+travel() {
+    print("I'm driving in my car")
+}
+
+travel {
+    print("I'm driving in my car")
+}
