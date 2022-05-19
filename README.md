@@ -1,3 +1,5 @@
+Swift --> from syntax to software building 
+
 First 12 days composed of fundamental + syntax knowledge of the Swift language. 
 Day 13 - 15: knowledge review
 Afterwards I delved into my own personal projects and code assessment practices
