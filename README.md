@@ -1,4 +1,6 @@
-First 12 days 
+First 12 days composed of fundamental + syntax knowledge of the Swift language. 
+Day 13 - 15: knowledg ereview
+Afterwards I delved into my own personal projects and code assessment practices
 
 Day 1 – variables, simple data types, and string interpolation
 Day 2 – arrays, dictionaries, sets, and enums
