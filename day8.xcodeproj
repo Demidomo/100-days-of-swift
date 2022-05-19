@@ -81,3 +81,164 @@ struct Person {
 
 var person = Person(name: "Ed")
 person.makeAnonymous()
+
+
+Properties and methods of strings
+
+let string = "Do or do not, there is no try."
+
+print(string.count)
+
+print(string.hasPrefix("Do"))
+
+print(string.uppercased())
+
+print(string.sorted())
+
+
+
+
+Properties and methods of arrays
+
+var toys = ["Woody"]
+
+print(toys.count)
+
+toys.append("Buzz")
+
+toys.firstIndex(of: "Buzz")
+
+print(toys.sorted())
+
+print(toys.sorted())
+
+
+
+
+Initializers
+
+struct User {
+    var username: String
+}
+
+var user = User(username: "twostraws")
+
+
+struct User {
+    var username: String
+
+    init() {
+        username = "Anonymous"
+        print("Creating a new user!")
+    }
+}
+
+var user = User()
+user.username = "twostraws"
+
+
+
+
+Referring to the current instance
+
+struct Person {
+    var name: String
+
+    init(name: String) {
+        print("\(name) was born!")
+        self.name = name
+    }
+}
+
+
+
+Lazy properties 
+
+struct FamilyTree {
+    init() {
+        print("Creating family tree!")
+    }
+}
+
+struct Person {
+    var name: String
+    var familyTree = FamilyTree()
+
+    init(name: String) {
+        self.name = name
+    }
+}
+
+var ed = Person(name: "Ed")
+
+
+lazy var familyTree = FamilyTree()
+
+ed.familyTree
+
+
+
+
+
+Static properties and methods
+
+
+struct Student {
+    var name: String
+
+    init(name: String) {
+        self.name = name
+    }
+}
+
+struct Student {
+    static var classSize = 0
+    var name: String
+
+    init(name: String) {
+        self.name = name
+        Student.classSize += 1
+    }
+}
+
+print(Student.classSize)
+
+
+
+
+Access control
+
+
+struct Person {
+    var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+let ed = Person(id: "12345")
+
+let ed = Student(name: "Ed")
+let taylor = Student(name: "Taylor")
+
+
+struct Person {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+struct Person {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
