@@ -17,3 +17,8 @@ Day 9 – access control, static properties, and laziness
 Day 10 – classes and inheritance
 Day 11 – protocols, extensions, and protocol extensions
 Day 12 – optionals, unwrapping, and typecasting
+
+
+Rank the learning material in order of difficulty (find a formula/roadmap) 
+Read through people’s experiences 
+Compare the resources from different roadmap, determine path of learning
