@@ -2,3 +2,18 @@ Design      Code
 
 IBOutlet ---> 
 <--- IBAction
+
+IBAction detects user interaction and updates the design app 
+- Connection: Action 
+- Type: UI button 
+- Event: touch up inside (within the boundaries of a finger tap) 
+
+
+   @IBAction func rollButtonPressed(_ sender: UIButton) {
+        print("Button got tapped. ")
+        diceImageView1.image = #imageLiteral(resourceName: "DiceFour")
+        diceImageView2.image = #imageLiteral(resourceName: "DiceFour")
+    }
+    
+    
+The first set of IBOutlet will run first, then the IBAction 
