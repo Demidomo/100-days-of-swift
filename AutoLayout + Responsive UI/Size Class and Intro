@@ -1,0 +1,9 @@
+- Size Classes and orientation
+- Understand constraint 
+- Learn about alignments and pinning 
+- Use containers for more fine grained control
+- Learn about stackedviews
+
+Constraints help to keep the orientation at the proper dimension
+- in launchscreen, select the background and add new constraints 
+- superview the leading and trailing constraints 
