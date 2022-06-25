@@ -1,1 +1,11 @@
+1. create an image literal, put it in an array
+2. make six of it 
+3. set diceImageView1 to show one of these items in the array 
+4. add a square in the back and enter the index count of the array   [dices][index]
+5. replace the index value as a variable 
+6. declare a variable at the start with a starting value 
+7. at the end of the sequence, add a value to the variable
 
+Keep in mind that to set the variable, it must be set outside of the loop
+- this way the loop can continously add on 
+- we can include a print statement to see what's going on in the block loop 
