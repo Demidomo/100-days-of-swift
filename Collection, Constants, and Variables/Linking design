@@ -1,0 +1,21 @@
+Viewcontroller.swift is the code file 
+main.storyboard is the design file 
+
+assistant editor in main.storyboard
+- this brings up the viewcontroller beside the design
+- drag the object over into the lines, this creates an interface builder outlet 
+
+How to change code
+- who.what = value 
+to change it to dice 6, here's the sourcecode: 
+diceImageView1.image = #imageLiteral( 
+https://developer.apple.com/forums/thread/678866
+
+
+override func viewDidLoad() {
+  Code goes here 
+} 
+
+{start of block
+}end of block
+everything in between, the code will be triggered 
