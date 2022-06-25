@@ -1,0 +1,40 @@
+variables can be assigned a new value
+
+constants cannot be reassigned 
+
+float stands for floating point 
+
+random number 
+
+let randomNumber = Int.random(in: 1 ...3)
+// the bracket is called a closed range 
+// the random number will be generated between 1 to 3 
+// the 3 dots are a cloesd range operator 
+
+print(randomNumber) 
+
+
+
+
+let randomNumber = Int.random(in: 1 ..< 3)
+
+
+let randomNumber = Float.random(in: 1 ..< 3)
+// This will generate all the decimal point numbers 
+
+
+
+// Random password generator (6 digits) 
+func exercise() {
+    
+    
+    let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    
+    //The number of letters in alphabet equals 26
+    
+    let password = alphabet[Int.random(in: 0...25)] + alphabet[Int.random(in: 0...25)] + alphabet[Int.random(in: 0...25)] + alphabet[Int.random(in: 0...25)] + alphabet[Int.random(in: 0...25)] + alphabet[Int.random(in: 0...25)] 
+    
+    print(password)
+    
+    
+}
