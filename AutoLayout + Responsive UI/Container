@@ -1,0 +1,18 @@
+Containers
+- add item (UIview) 
+
+the containers must be embedded in the view 
+
+1st way: 
+- drag the container into the view folder, done in the document outline
+- the container will be 
+
+2nd way: 
+- select the item(s)
+- select editor on the top
+- select embed in, and select view 
+- this will create its own folder
+
+3rd way:
+- select the item
+- lower right hand corner, arrow pointing downward
