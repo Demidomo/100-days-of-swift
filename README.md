@@ -22,3 +22,13 @@ Day 12 – optionals, unwrapping, and typecasting
 Rank the learning material in order of difficulty (find a formula/roadmap) 
 Read through people’s experiences 
 Compare the resources from different roadmap, determine path of learning
+
+
+
+Xylophone app: 
+- Setup Skeleton project
+- Use sound with Apple Documentation and StackOverflow
+- Swift Functions
+- linking multiple elements to one IBAction
+- Creating function with inputs 
+- Play different sounds for different buttons 
