@@ -3,6 +3,8 @@
 //Creating the function: 
 //- func getMilk () { steps to do }
 
+
+
 //Calling the function
 //- getMilk()
 
@@ -21,6 +23,8 @@ func greeting1() {
 
 // The scope of myName is limited within greeting1
 // click on the curly braces to see the function fit
+
+// function are great for reusabiility of a sourccode 
 
 // auto indent:
 // select all
