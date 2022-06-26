@@ -1,0 +1,28 @@
+getMilk() vs. writing out every step
+
+Creating the function: 
+- func getMilk () { steps to do }
+
+Calling the function
+- getMilk()
+
+func greeting(){
+    print("Hello")
+}
+
+greeting()
+
+
+func greeting1() {
+    print("hello")
+    
+    var myName = "dumpster"
+}
+
+// The scope of myName is limited within greeting1
+// click on the curly braces to see the function fit
+
+// auto indent:
+// select all
+// editor
+// structure >>> Indent 
