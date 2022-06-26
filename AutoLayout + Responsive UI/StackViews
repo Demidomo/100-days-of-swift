@@ -1,0 +1,34 @@
+Have views stacked on top of each other 
+Views can be horizontal aligned
+
+Stack view method
+- Select all containers with cmd key 
+- editor > embed in > stack view
+
+or bottom right
+
+
+Once stacked, the stackview will require constraints 
+- line the containers up along the Safe Area 
+- Set constraints to the safe area in drop down, enter 0 as value 
+
+if safe area does not show up, fine tune it in attributes 
+- select the container in constraint drop down 
+- select attribute and select safe area botton
+and select 0
+
+distribution = filled equally in atributes 
+
+
+To have all the designs centered:
+- group all the items within the container, and make it its own stackview by embedding them
+- select that stackview and set horizontal and vertical alignment constraints 
+- do it for all containers and test landscape 
+
+Set transparant background 
+- Select all the containers
+- set background to default in attributes 
+
+Adjusting size of the items in containers 
+- select the item and set width and height to your choosing in constraints 
+- there is a warning and follow through on it, confirm that is of choosing 
