@@ -1,0 +1,16 @@
+Superclass to Subclass
+- Inheritant Methods and Properties 
+ properties don't need to be redefined 
+ 
+ Override 
+ - can be used to customize a certain method that was inherited from a superclass
+ - super. can inherit methods from the superclass
+ 
+ 
+ 
+ 
+ UI Button
+ UIControl
+ UI View
+ UI Responder
+ NSOBject
