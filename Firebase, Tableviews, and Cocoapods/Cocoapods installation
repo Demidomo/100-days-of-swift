@@ -1,0 +1,226 @@
+Last login: Sun Jun 26 17:04:58 on ttys001
+matthewmobi@Matthews-MacBook-Pro ~ % rvm install "ruby-2.6.3"
+Searching for binary rubies, this might take some time.
+No binary rubies available for: osx/12.4/x86_64/ruby-2.6.3.
+Continuing with compilation. Please read 'rvm help mount' to get more information on binary rubies.
+Checking requirements for osx.
+Certificates bundle '/usr/local/etc/openssl@1.1/cert.pem' is already up to date.
+Requirements installation successful.
+Installing Ruby from source to: /Users/matthewmobi/.rvm/rubies/ruby-2.6.3, this may take a while depending on your cpu(s)...
+ruby-2.6.3 - #downloading ruby-2.6.3, this may take a while depending on your connection...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 13.8M  100 13.8M    0     0   970k      0  0:00:14  0:00:14 --:--:--  880k
+ruby-2.6.3 - #extracting ruby-2.6.3 to /Users/matthewmobi/.rvm/src/ruby-2.6.3 - please wait
+ruby-2.6.3 - #configuring - please wait
+Error running './configure --prefix=/Users/matthewmobi/.rvm/rubies/ruby-2.6.3  --with-opt-dir=/usr/local/opt/libyaml:/usr/local/opt/libksba:/usr/local/opt/readline:/usr/local/opt/zlib:/usr/local/opt/openssl@1.1 --disable-install-doc --enable-shared',
+please read /Users/matthewmobi/.rvm/log/1656288612_ruby-2.6.3/configure.log
+There has been an error while running configure. Halting the installation.
+matthewmobi@Matthews-MacBook-Pro ~ %  sudo gem install cocoapods 
+Password:
+Building native extensions. This could take a while...
+ERROR:  Error installing cocoapods:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220626-27299-7koyo9.rb extconf.rb
+mkmf.rb can't find header files for ruby at /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.5 for inspection.
+Results logged to /Library/Ruby/Gems/2.6.0/extensions/universal-darwin-21/2.6.0/ffi-1.15.5/gem_make.out
+matthewmobi@Matthews-MacBook-Pro ~ % sudo gem install cocoapods -v 1.8.4
+
+
+Successfully installed cocoapods-1.8.4
+Parsing documentation for cocoapods-1.8.4
+Done installing documentation for cocoapods after 1 seconds
+1 gem installed
+matthewmobi@Matthews-MacBook-Pro ~ % --version
+zsh: command not found: --version
+matthewmobi@Matthews-MacBook-Pro ~ % brew clearnup -d -v
+Error: Unknown command: clearnup
+Error: Kernel.exit
+/usr/local/Homebrew/Library/Homebrew/utils.rb:160:in `exit'
+/usr/local/Homebrew/Library/Homebrew/utils.rb:160:in `odie'
+/usr/local/Homebrew/Library/Homebrew/brew.rb:126:in `<main>'
+matthewmobi@Matthews-MacBook-Pro ~ % sudo gem install cocoapods
+Building native extensions. This could take a while...
+ERROR:  Error installing cocoapods:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220626-27598-1y3nepb.rb extconf.rb
+mkmf.rb can't find header files for ruby at /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.5 for inspection.
+Results logged to /Library/Ruby/Gems/2.6.0/extensions/universal-darwin-21/2.6.0/ffi-1.15.5/gem_make.out
+matthewmobi@Matthews-MacBook-Pro ~ % pod setup --verbose
+matthewmobi@Matthews-MacBook-Pro ~ % pod setup --verbose
+matthewmobi@Matthews-MacBook-Pro ~ % sudo gem install cocoapods
+Building native extensions. This could take a while...
+ERROR:  Error installing cocoapods:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220626-27728-17ms34l.rb extconf.rb
+mkmf.rb can't find header files for ruby at /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.5 for inspection.
+Results logged to /Library/Ruby/Gems/2.6.0/extensions/universal-darwin-21/2.6.0/ffi-1.15.5/gem_make.out
+matthewmobi@Matthews-MacBook-Pro ~ % brew install cocoapods
+
+==> Downloading https://ghcr.io/v2/homebrew/core/cocoapods/manifests/1.11.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:92ea102a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Pouring cocoapods--1.11.3.monterey.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/pod
+Target /usr/local/bin/pod
+already exists. You may want to remove it:
+  rm '/usr/local/bin/pod'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite cocoapods
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run cocoapods
+
+Possible conflicting files are:
+/usr/local/bin/pod
+/usr/local/bin/xcodeproj
+==> Summary
+🍺  /usr/local/Cellar/cocoapods/1.11.3: 14,135 files, 29.9MB
+==> Running `brew cleanup cocoapods`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+matthewmobi@Matthews-MacBook-Pro ~ % brew link --overwrite cocoapods
+
+Linking /usr/local/Cellar/cocoapods/1.11.3... 2 symlinks created.
+matthewmobi@Matthews-MacBook-Pro ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+==> Checking for `sudo` access (which may request your password)...
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The Xcode Command Line Tools will be installed.
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/sbin/chown -R matthewmobi:admin /usr/local/Homebrew
+==> Searching online for the Command Line Tools
+==> /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> Installing Command Line Tools for Xcode-13.4
+==> /usr/bin/sudo /usr/sbin/softwareupdate -i Command\ Line\ Tools\ for\ Xcode-13.4
+Software Update Tool
+
+Finding available software
+
+Downloading Command Line Tools for Xcode
+Downloaded Command Line Tools for Xcode
+Installing Command Line Tools for Xcode
+Done with Command Line Tools for Xcode
+Done.
+==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+Password:
+==> /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> Downloading and installing Homebrew...
+HEAD is now at 38e1af857 Merge pull request #13474 from samford/bump-formula-pr-handle-url-wth-specs-hash
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+matthewmobi@Matthews-MacBook-Pro ~ % brew help
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+matthewmobi@Matthews-MacBook-Pro ~ % --version
+zsh: command not found: --version
+matthewmobi@Matthews-MacBook-Pro ~ % sudo gem install cocoapods
+Building native extensions. This could take a while...
+Successfully installed ffi-1.15.5
+Successfully installed ethon-0.15.0
+Successfully installed typhoeus-1.4.0
+Successfully installed public_suffix-4.0.7
+Successfully installed addressable-2.8.0
+Successfully installed cocoapods-core-1.11.3
+Successfully installed molinillo-0.8.0
+cocoapods's executable "pod" conflicts with /usr/local/bin/pod
+Overwrite the executable? [yN]  y
+Successfully installed cocoapods-1.11.3
+Parsing documentation for ffi-1.15.5
+Installing ri documentation for ffi-1.15.5
+Parsing documentation for ethon-0.15.0
+Installing ri documentation for ethon-0.15.0
+Parsing documentation for typhoeus-1.4.0
+Installing ri documentation for typhoeus-1.4.0
+Parsing documentation for public_suffix-4.0.7
+Installing ri documentation for public_suffix-4.0.7
+Parsing documentation for addressable-2.8.0
+Installing ri documentation for addressable-2.8.0
+Parsing documentation for cocoapods-core-1.11.3
+Installing ri documentation for cocoapods-core-1.11.3
+Parsing documentation for molinillo-0.8.0
+Installing ri documentation for molinillo-0.8.0
+Parsing documentation for cocoapods-1.11.3
+Installing ri documentation for cocoapods-1.11.3
+Done installing documentation for ffi, ethon, typhoeus, public_suffix, addressable, cocoapods-core, molinillo, cocoapods after 25 seconds
+8 gems installed
+matthewmobi@Matthews-MacBook-Pro ~ % --version
+zsh: command not found: --version
+matthewmobi@Matthews-MacBook-Pro ~ % pod setup --verbose
+Setup completed
+matthewmobi@Matthews-MacBook-Pro ~ % pod --version
+1.11.3
+matthewmobi@Matthews-MacBook-Pro ~ % 
